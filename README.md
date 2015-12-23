@@ -9,7 +9,7 @@ The sculpture also has an option to display different content as oppose to the c
 
 ## Hardware
 
-#### martix display
+#### Martix display - https://learn.adafruit.com/32x16-32x32-rgb-led-matrix/overview
 
 Panels used are used to make video walls on time square for example. Panels measure 16 by 32 pixels and can be chained together to create a video wall. They have bright LEDs aligned to the grid can display RGB colours. 12 digital pins drive the whole chain of displays (6 bit data and 6 bit control) using 5V up to 2A of power.
 
@@ -33,6 +33,24 @@ Using a separate 150W power supply we protected Arduino from power spikes that m
 
 Connecting the LED strip we followed the tutorial: 
 https://learn.adafruit.com/adafruit-neopixel-uberguide/power
+
+
+#### Raspberry PI 2 Model B
+
+This is a credict-card size computer which drives the content on displays.
+
+http://si.farnell.com/raspberry-pi/raspberrypi-2-modb-1gb/sbc-raspberry-pi-2-model-b-1gb/dp/2461029
+
+#### Arduino Uno 
+
+Driving the colored NeoPixel LED strip was done using Arduino
+http://si.farnell.com/arduino/a000066/atmega328-arduino-uno-eval-board/dp/2075382
+
+Ethernet sheild for arduino:
+http://si.farnell.com/arduino/a000056/w5100-enet-shield-arduino-board/dp/2061037
+
+Temperature - humidity sensor
+https://www.adafruit.com/products/385
 
 #### Weather protection
 
@@ -134,13 +152,14 @@ Administrative web page to change the text on the sculpture was also created. Us
 
 Lab: MakerLab Ljubljana: http://maker.si
 Faculty for Electrical engineering Ljubljana Slovenia
-*Mentor : Luka Mali
+<
+* Mentor : Luka Mali
 
-*Martin Cimerman @CimeM
-*Janez Cimerman @JanezCim
-*Žiga Brinjšek @ZigaB
-*Tim Kambrič @tkambic
-*Nejc Jurkovič
+* Martin Cimerman @CimeM
+* Janez Cimerman @JanezCim
+* Žiga Brinjšek @ZigaB
+* Tim Kambrič @tkambic
+* Nejc Jurkovič
 
 This project was created with cooperation with Olympic Committee Slovenia (OCS)
 
