@@ -16,7 +16,7 @@ Panels used are used to make video walls on time square for example. Panels meas
 Panels are chained together to form a module with 2x3 panels on both sides. Wooden frame of the module also contains separate power supplies and separate RPIs to drive the displays. 
 Display panels are connected in series with flat cables to Raspberry PI’s GPIO connector. Both panel sides have separate Raspberry driving it.
 
-![Image of panel connections](https://raw.githubusercontent.com/MakerLabLjubljana/OlympicCountdown/master/Drawings/Matrix_panel_connections.svg)  
+![Image of panel connections](https://rawgithub.com/MakerLabLjubljana/OlympicCountdown/master/Drawings/Matrix_panel_connections.svg)  
 
 
 Instructions on connecting RPI to the modules can be found on the instructions page of the library for displaying content. https://github.com/hzeller/rpi-rgb-led-matrix
@@ -29,7 +29,7 @@ We used Adafruit’s NeoPixel Digital RGB LED Strip - white to display the offic
 Data connections are connected in parallel, because we solved synchronisation problem and saved some space in the module using only one arduino to tun the LEDs. Connecting ground pin to Arduino enables that the data voltage has a reference point.
 Using a separate 150W power supply we protected Arduino from power spikes that may happen.
 
-![NeoPixel lights connections](https://github.com/MakerLabLjubljana/OlympicCountdown/master/Drawings/NeoPixel_connections.svg)
+![NeoPixel lights connections](https://rawgithub.com/MakerLabLjubljana/OlympicCountdown/master/Drawings/NeoPixel_connections.svg)
 
 Connecting the LED strip we followed the tutorial: 
 https://learn.adafruit.com/adafruit-neopixel-uberguide/power
@@ -47,7 +47,7 @@ We installed 3x 150W power supply. There is some overhead capacity concerning po
 Connecting all devices to the network enabled us to control it remotely from our lab, avoiding loosing time to actually going to the site and program it in the cold winter days.
 We used Ethernet cables to connect all devices to the Router inside the sculpture.
 
-![Network connections](https://github.com/MakerLabLjubljana/OlympicCountdown/master/Drawings/Network_connections.svg)
+![Network connections](https://rawgithub.com/MakerLabLjubljana/OlympicCountdown/master/Drawings/Network_connections.svg)
 
 ## Software
 
@@ -139,7 +139,7 @@ Mentor : Luka Mali
 Martin Cimerman @CimeM
 Janez Cimerman @JanezCim
 Žiga Brinjšek @ZigaB
-Tim Kambrič 
+Tim Kambrič @tkambic
 Nejc Jurkovič
 
 This project was created with cooperation with Olympic Committee Slovenia (OCS)
